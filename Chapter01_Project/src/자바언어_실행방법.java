@@ -54,7 +54,7 @@ public class 자바언어_실행방법 {
 	System.out.println("Hello java");
 	System.out.println("Hello java");
 	
-		
+		System.out.println("수정수정");
 		
 }
 	
