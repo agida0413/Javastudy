@@ -15,6 +15,6 @@ public class 자바데이터형변경 {
 				
 		System.out.println(0b00101100); // 44 2진법 ( 0b )
 		
-		
+		System.out.println(Integer.toBinaryString(300));
 	}
 }
