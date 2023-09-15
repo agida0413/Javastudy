@@ -13,7 +13,7 @@
  * 0   0  0 0 1 0     100010  34
  *                    100000  32
  */
-public class 복합연산자_4 {
+public class 복합대입연산자_4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
