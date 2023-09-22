@@ -1,43 +1,28 @@
-//100번의 알파벳 난수발생 A,B,C 개수
 
-import java.util.Iterator;
-
+// 100번의 알파벳 난수 발생 ==> A,B,C의 갯수확인 
 public class 제어문_반복문8 {
+
 	public static void main(String[] args) {
-		
-		int a= 0;
-		int b=0;
-		int z=0;
-		for(int i =0;i<100;i++) {
-			
-			char c = (char)((Math.random()*26)+65);
-			
-			if (c=='A') {
-				a++;
-				
-			}
-			if (c=='B') {
-				b++;
-				
-			}
-			if (c=='C') {
-				z++;
-				
-			}
-			
-			
-			
-			System.out.print(c+ " ");
-			
-		}
-				
-		System.out.println();
-		System.out.println("A는 "+a+"개");
-		System.out.println("B는 "+b+"개");
-		System.out.println("C는 "+z+"개");
-		
-		
-		
+		// TODO Auto-generated method stub
+        int a=0,b=0,c=0;
+        // 갯수 ++ , 누적 += ==> 빈도수 계산 
+        for(int i=1;i<=100;i++)
+        {
+        	char ch=(char)((Math.random()*26)+65);
+        	// A~Z사이의 난수 
+        	System.out.print(ch+" ");
+        	if(ch=='A')
+        		a++;
+        	else if(ch=='B')
+        		b++;
+        	else if(ch=='C')
+        		c++;
+        }
+        System.out.println("\n===========결과값========= ");
+        System.out.println("A의 갯수:"+a);
+        System.out.println("B의 갯수:"+b);
+        System.out.println("C의 갯수:"+c);
+        
 	}
 
 }
