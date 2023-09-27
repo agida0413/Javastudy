@@ -1,4 +1,5 @@
 
+
 import java.util.Arrays;
 
 public class 배열_생성7 {
@@ -20,7 +21,7 @@ public class 배열_생성7 {
         	}
         	
         }
-        Arrays.sort(com);
+        
         for(int a:com)
         {
         	System.out.print(a+" ");
