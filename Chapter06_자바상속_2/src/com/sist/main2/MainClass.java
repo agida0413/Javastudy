@@ -55,6 +55,7 @@ public class MainClass {
 		//***
 		Super s2=new Sub();
         s2.display();// Sub
+       
         
         /*
          *     멤버변수 : 선언된 클래스형 
